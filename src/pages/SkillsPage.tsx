@@ -1,0 +1,47 @@
+import React from 'react';
+import styled from 'styled-components';
+
+// Imported Components
+import PageHeader from '../components/PageHeader';
+import SkillCard from '../components/SkillCard';
+
+// Styles
+const Div = styled.div`
+	font-family: 'Roboto Mono', monospace;
+	margin-top: 2rem;
+
+	width: 60vw;
+
+	.skillsContainer {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 4rem;
+	}
+`;
+
+function SkillsPage() {
+	return (
+		<Div>
+			<PageHeader title="Skills" color="#ff9d00" emoji="💻" />
+			<div className="skillsContainer">
+				<SkillCard imageUrl="https://i.imgur.com/JPPvvpe.png" skill="Javascript" />
+				<SkillCard imageUrl="https://i.imgur.com/qUbmPcC.png" skill="Python" />
+				<SkillCard imageUrl="https://i.imgur.com/fY9c7c7.png" skill="Java" />
+				<SkillCard imageUrl="https://i.imgur.com/NZAw8BV.png" skill="React" />
+				<SkillCard imageUrl="https://i.imgur.com/X0zavgE.png" skill="Node" />
+				<SkillCard imageUrl="https://i.imgur.com/xLI0Ltn.png" skill="MongoDB" />
+				<SkillCard imageUrl="https://i.imgur.com/TVZk8BO.png" skill="PostgreSQL" />
+				<SkillCard imageUrl="https://i.imgur.com/ijMJKTb.png" skill="Django" />
+				<SkillCard imageUrl="https://i.imgur.com/ZpGsiSl.png" skill="Spring boot" />
+				<SkillCard imageUrl="https://i.imgur.com/EAGTrXn.png" skill="Graphql" />
+				<SkillCard imageUrl="https://i.imgur.com/lnUnkDl.png" skill="HTML5" />
+				<SkillCard imageUrl="https://i.imgur.com/kcQmJ0n.png" skill="CSS3" />
+				<SkillCard imageUrl="https://i.imgur.com/vpy08mM.png" skill="Gatsby" />
+				<SkillCard imageUrl="https://i.imgur.com/cjQf4aZ.png" skill="AWS EC2" />
+				<SkillCard imageUrl="https://i.imgur.com/wk3RV9X.png" skill="Git" />
+			</div>
+		</Div>
+	);
+}
+
+export default SkillsPage;

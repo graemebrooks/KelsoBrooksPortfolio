@@ -4,6 +4,8 @@ import { Switch, Route, withRouter } from 'react-router-dom';
 
 // Component imports
 import Nav from './components/Nav';
+import AboutPage from './pages/AboutPage';
+import SkillsPage from './pages/SkillsPage';
 
 function App() {
 	return (
@@ -12,31 +14,15 @@ function App() {
 
 			<Switch>
 				<Route exact path="/">
-					<Home />
+					<AboutPage />
 				</Route>
 				<Route path="/skills">
-					<Skills />
+					<SkillsPage />
 				</Route>
 				<Route path="/background">
 					<Background />
 				</Route>
 			</Switch>
-		</div>
-	);
-}
-
-function Home() {
-	return (
-		<div>
-			<h2>Homehome</h2>
-		</div>
-	);
-}
-
-function Skills() {
-	return (
-		<div>
-			<h2>Skills</h2>
 		</div>
 	);
 }

@@ -18,13 +18,42 @@ const Div = styled.div`
 		display: flex;
 		flex-direction: row;
 
+		a:active {
+			color: black;
+		}
+
 		li {
 			margin: auto 0.5rem;
 			padding: 0.4rem;
+
+			a:link {
+				color: #173823;
+				text-decoration: none;
+			}
 		}
 
-		li:hover {
-			background: orange;
+		.aboutLink:hover {
+			background: #58d613;
+		}
+
+		.skillsLink:hover {
+			background: #ff9d00;
+		}
+
+		.backgroundLink:hover {
+			background: #fffeb8;
+		}
+
+		.projectsLink:hover {
+			background: #00c2e5;
+		}
+
+		.blogLink:hover {
+			background: #000000;
+
+			a {
+				color: white;
+			}
 		}
 	}
 
@@ -38,19 +67,19 @@ function Nav() {
 	return (
 		<Div>
 			<ul>
-				<li>
+				<li className="aboutLink">
 					<Link to="/">About</Link>
 				</li>
-				<li>
+				<li className="skillsLink">
 					<Link to="/skills">Skills</Link>
 				</li>
-				<li>
+				<li className="backgroundLink">
 					<Link to="/background">Background</Link>
 				</li>
-				<li>
+				<li className="projectsLink">
 					<Link to="/projects">Projects</Link>
 				</li>
-				<li>
+				<li className="blogLink">
 					<Link to="/blog">Blog</Link>
 				</li>
 			</ul>
