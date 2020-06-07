@@ -39,6 +39,9 @@ function SkillsPage() {
 				<SkillCard imageUrl="https://i.imgur.com/vpy08mM.png" skill="Gatsby" />
 				<SkillCard imageUrl="https://i.imgur.com/cjQf4aZ.png" skill="AWS EC2" />
 				<SkillCard imageUrl="https://i.imgur.com/wk3RV9X.png" skill="Git" />
+				<SkillCard imageUrl="https://i.imgur.com/egatImc.png" skill="Flask" />
+				<SkillCard imageUrl="https://i.imgur.com/xXdelzo.png" skill="Typescript" />
+				<SkillCard imageUrl="https://i.imgur.com/aCd76qO.png" skill="Docker" />
 			</div>
 		</Div>
 	);
