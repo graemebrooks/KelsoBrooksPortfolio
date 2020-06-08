@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage';
 import SkillsPage from './pages/SkillsPage';
 import BackgroundPage from './pages/BackgroundPage';
 import ProjectsPage from './pages/ProjectsPage';
+import BlogPage from './pages/BlogPage';
 
 function App() {
 	return (
@@ -26,6 +27,9 @@ function App() {
 				</Route>
 				<Route path="/projects">
 					<ProjectsPage />
+				</Route>
+				<Route path="/blog">
+					<BlogPage />
 				</Route>
 			</Switch>
 		</div>

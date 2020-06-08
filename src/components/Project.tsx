@@ -74,7 +74,7 @@ function Project({ name, imageUrl, description, projectLink, projectTags }: Proj
 		<Div>
 			<div className="projectBody">
 				<div className="firstColumn">
-					<img src={imageUrl} />
+					<img src={imageUrl} alt="project screenshot" />
 					<a href={projectLink} target="_blank" rel="noopener noreferrer">
 						Github Repo Link
 					</a>
