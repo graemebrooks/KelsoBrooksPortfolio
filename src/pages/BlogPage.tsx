@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 // Imported Components
 import PageHeader from '../components/PageHeader';
-import SkillCard from '../components/SkillCard';
 
 // Styles
 const Div = styled.div`
@@ -11,12 +10,6 @@ const Div = styled.div`
 	margin-top: 2rem;
 
 	width: 60vw;
-
-	.skillsContainer {
-		display: flex;
-		flex-wrap: wrap;
-		margin-bottom: 4rem;
-	}
 `;
 
 function BlogPage() {

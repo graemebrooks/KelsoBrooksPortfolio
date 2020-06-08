@@ -126,3 +126,9 @@ table {
 h2 {
 	font-size: 2rem;
 }
+
+@media (max-width: 700px) {
+	html {
+		max-width: 100vw;
+	}
+}

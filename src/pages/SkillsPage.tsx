@@ -17,6 +17,17 @@ const Div = styled.div`
 		flex-wrap: wrap;
 		margin-bottom: 4rem;
 	}
+
+	@media (max-width: 700px) {
+		width: 90vw;
+
+		.skillsContainer {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-bottom: 4rem;
+		}
+	}
 `;
 
 function SkillsPage() {

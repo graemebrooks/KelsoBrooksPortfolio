@@ -27,7 +27,6 @@ const Div = styled.div`
 
 		img {
 			max-height: 10rem;
-			margin-right: 1rem;
 		}
 
 		h3 {
@@ -45,6 +44,42 @@ const Div = styled.div`
 			margin-bottom: 0.8rem;
 
 			text-align: left;
+		}
+	}
+
+	@media (max-width: 700px) {
+		width: 90vw;
+
+		.backgroundUnit {
+			margin-top: 1.5rem;
+			margin-bottom: 5rem;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			img {
+				max-width: 10rem;
+				margin-bottom: 1.5rem;
+			}
+
+			h3 {
+				display: flex;
+				align-items: left;
+				font-size: 1.2rem;
+				margin-bottom: 1rem;
+				background: #fffeb8;
+				padding: 0.2rem;
+			}
+
+			p {
+				display: flex;
+				align-items: left;
+				margin-bottom: 0.8rem;
+
+				text-align: left;
+			}
 		}
 	}
 `;

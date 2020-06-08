@@ -23,6 +23,8 @@ const Div = styled.div`
 	img {
 		width: 90%;
 	}
+
+	
 `;
 
 type SkillsCardProps = { imageUrl: string; skill: string };

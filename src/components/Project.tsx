@@ -59,6 +59,35 @@ const Div = styled.div`
 		max-width: 26rem;
 		margin-right: 1rem;
 	}
+
+	@media (max-width: 700px) {
+		.projectBody {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.firstColumn {
+			margin-bottom: 1rem;
+		}
+
+		img {
+			max-height: 10rem;
+			margin-right: 1rem;
+		}
+	}
+
+	.projectTags {
+		margin-bottom: 2rem;
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		p {
+			margin-right: 0.5rem;
+			color: #bdbdbd;
+		}
+	}
 `;
 
 type ProjectProps = {

@@ -135,6 +135,71 @@ const Div = styled.div`
 			max-height: 15rem;
 		}
 	}
+
+	@media (max-width: 700px) {
+		width: 90vw;
+
+		.intro {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 1rem;
+
+			img {
+				margin-right: 1rem;
+				max-width: 70%;
+			}
+		}
+
+		.buddhismInfo {
+			margin-top: 1.5rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			img {
+				margin-right: 1rem;
+				max-width: 80%;
+			}
+		}
+
+		.buddhismQuote {
+			max-width: 80%;
+		}
+
+		.codingInfo {
+			margin-top: 1.5rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			img {
+				margin-right: 1rem;
+				max-width: 80%;
+			}
+
+			p {
+				padding-top: 1rem;
+				max-width: 100%;
+				text-align: left;
+				line-height: 2;
+			}
+		}
+
+		#sportsLogos {
+			background: #f5f5f5;
+			padding: 1.5rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			img {
+				max-width: 10rem;
+				padding: 1rem;
+			}
+		}
+	}
 `;
 
 const photos = [

@@ -57,6 +57,27 @@ const Div = styled.div`
 		margin-right: auto;
 		margin-top: 0.75rem;
 	}
+
+	@media (max-width: 700px) {
+		width: 100vw;
+		padding: 0;
+
+		ul {
+			width: 100%;
+			flex-direction: column;
+			font-size: 1.5rem;
+			margin: 0;
+
+			li {
+				margin: 0;
+				width: 100%;
+			}
+
+			a {
+				color: black;
+			}
+		}
+	}
 `;
 
 function Nav() {
