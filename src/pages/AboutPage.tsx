@@ -96,6 +96,10 @@ const Div = styled.div`
 		}
 	}
 
+	#codingSecond {
+		margin-bottom: 1.5rem;
+	}
+
 	.sportsInfo {
 		margin-top: 1.5rem;
 		margin-bottom: 1.5rem;
@@ -210,9 +214,9 @@ function AboutPage() {
 						{' '}
 						🤝
 					</span>. If you're a prospective employer or just one of those people who get some strange kick out
-					of portfolios, I hope this experience provides you with a better idea of who I am! The links above
-					will illustrate who I am as a developer, below I hope to give a sense of who I am as a person. Don't
-					be a stranger and feel free to reach out with any questions!
+					of portfolios, I hope this site provides you with a better idea of who I am! The links above will
+					illustrate who I am as a developer, below I hope to give a sense of who I am as a person. Don't be a
+					stranger and feel free to reach out with any questions!
 					<span className="contactInfo">
 						<a href="https://github.com/graemebrooks" target="_blank" rel="noopener noreferrer">
 							Github Profile{' '}

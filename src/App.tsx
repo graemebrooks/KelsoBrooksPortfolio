@@ -6,6 +6,7 @@ import { Switch, Route, withRouter } from 'react-router-dom';
 import Nav from './components/Nav';
 import AboutPage from './pages/AboutPage';
 import SkillsPage from './pages/SkillsPage';
+import BackgroundPage from './pages/BackgroundPage';
 
 function App() {
 	return (
@@ -20,17 +21,12 @@ function App() {
 					<SkillsPage />
 				</Route>
 				<Route path="/background">
-					<Background />
+					<BackgroundPage />
+				</Route>
+				<Route path="/projects">
+					<BackgroundPage />
 				</Route>
 			</Switch>
-		</div>
-	);
-}
-
-function Background() {
-	return (
-		<div>
-			<h2>Background</h2>
 		</div>
 	);
 }
