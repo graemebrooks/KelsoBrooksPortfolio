@@ -7,6 +7,7 @@ import Nav from './components/Nav';
 import AboutPage from './pages/AboutPage';
 import SkillsPage from './pages/SkillsPage';
 import BackgroundPage from './pages/BackgroundPage';
+import ProjectsPage from './pages/ProjectsPage';
 
 function App() {
 	return (
@@ -24,7 +25,7 @@ function App() {
 					<BackgroundPage />
 				</Route>
 				<Route path="/projects">
-					<BackgroundPage />
+					<ProjectsPage />
 				</Route>
 			</Switch>
 		</div>
