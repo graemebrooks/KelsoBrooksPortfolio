@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/KelsoBrooksPortfolio/static/css/main.87a953ca.chunk.css",
+    "main.js": "/KelsoBrooksPortfolio/static/js/main.97dbb583.chunk.js",
+    "main.js.map": "/KelsoBrooksPortfolio/static/js/main.97dbb583.chunk.js.map",
+    "runtime-main.js": "/KelsoBrooksPortfolio/static/js/runtime-main.39c6c3bc.js",
+    "runtime-main.js.map": "/KelsoBrooksPortfolio/static/js/runtime-main.39c6c3bc.js.map",
+    "static/js/2.e80cdf44.chunk.js": "/KelsoBrooksPortfolio/static/js/2.e80cdf44.chunk.js",
+    "static/js/2.e80cdf44.chunk.js.map": "/KelsoBrooksPortfolio/static/js/2.e80cdf44.chunk.js.map",
+    "index.html": "/KelsoBrooksPortfolio/index.html",
+    "precache-manifest.c02de58c402a14c07475789ebf332b0b.js": "/KelsoBrooksPortfolio/precache-manifest.c02de58c402a14c07475789ebf332b0b.js",
+    "service-worker.js": "/KelsoBrooksPortfolio/service-worker.js",
+    "static/css/main.87a953ca.chunk.css.map": "/KelsoBrooksPortfolio/static/css/main.87a953ca.chunk.css.map",
+    "static/js/2.e80cdf44.chunk.js.LICENSE.txt": "/KelsoBrooksPortfolio/static/js/2.e80cdf44.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39c6c3bc.js",
+    "static/js/2.e80cdf44.chunk.js",
+    "static/css/main.87a953ca.chunk.css",
+    "static/js/main.97dbb583.chunk.js"
+  ]
+}
