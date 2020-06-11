@@ -132,11 +132,11 @@ const Div = styled.div`
 		justify-content: space-around;
 
 		img {
-			max-height: 15rem;
+			max-height: 10rem;
 		}
 	}
 
-	@media (max-width: 700px) {
+	@media (max-width: 1200px) {
 		width: 90vw;
 
 		.intro {

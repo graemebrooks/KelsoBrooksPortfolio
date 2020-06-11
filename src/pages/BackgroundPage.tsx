@@ -27,6 +27,7 @@ const Div = styled.div`
 
 		img {
 			max-height: 10rem;
+			margin-right: 1rem;
 		}
 
 		h3 {
@@ -47,7 +48,7 @@ const Div = styled.div`
 		}
 	}
 
-	@media (max-width: 700px) {
+	@media (max-width: 1200px) {
 		width: 90vw;
 
 		.backgroundUnit {
@@ -91,7 +92,7 @@ function BackgroundPage() {
 			<h2 className="sectionHeader">
 				Education {' '}
 				<span role="img" aria-label="dna">
-					🧬
+					🔬
 				</span>
 			</h2>
 			<div className="backgroundUnit">

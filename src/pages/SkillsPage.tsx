@@ -15,6 +15,7 @@ const Div = styled.div`
 	.skillsContainer {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 		margin-bottom: 4rem;
 	}
 

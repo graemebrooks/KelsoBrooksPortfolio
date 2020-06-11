@@ -19,7 +19,7 @@ const Div = styled.div`
 		align-items: left;
 	}
 
-	@media (max-width: 700px) {
+	@media (max-width: 1200px) {
 		width: 90vw;
 	}
 `;
