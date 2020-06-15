@@ -54,6 +54,7 @@ function SkillsPage() {
 				<SkillCard imageUrl="https://i.imgur.com/egatImc.png" skill="Flask" />
 				<SkillCard imageUrl="https://i.imgur.com/xXdelzo.png" skill="Typescript" />
 				<SkillCard imageUrl="https://i.imgur.com/aCd76qO.png" skill="Docker" />
+				<SkillCard imageUrl="https://i.imgur.com/zGfNVp9.png" skill="Nginx" />
 			</div>
 		</Div>
 	);
