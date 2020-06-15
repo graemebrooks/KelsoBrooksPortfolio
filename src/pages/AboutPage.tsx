@@ -8,6 +8,10 @@ import PageHeader from '../components/PageHeader';
 const Div = styled.div`
 	font-family: 'Roboto Mono', monospace;
 	margin-top: 2rem;
+	padding: 1rem;
+
+	background: white;
+	border-radius: 8px;
 
 	width: 60vw;
 

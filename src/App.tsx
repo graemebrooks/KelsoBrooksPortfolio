@@ -9,6 +9,7 @@ import SkillsPage from './pages/SkillsPage';
 import BackgroundPage from './pages/BackgroundPage';
 import ProjectsPage from './pages/ProjectsPage';
 import BlogPage from './pages/BlogPage';
+import BlogPost from './components/BlogPost';
 
 function App() {
 	return (
@@ -28,6 +29,7 @@ function App() {
 				<Route path="/projects">
 					<ProjectsPage />
 				</Route>
+				<Route path="/blog/:id" component={BlogPost} />
 				<Route path="/blog">
 					<BlogPage />
 				</Route>
