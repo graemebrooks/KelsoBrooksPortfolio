@@ -29,6 +29,7 @@ const Div =
 		margin: 1rem auto;
 		padding-bottom: 1rem;
 		border-bottom: 3px solid #ffb3fa;
+		max-width: 90vw;
 	}
 
 	h2 {
@@ -72,6 +73,19 @@ const Div =
 			padding: 1rem;
 		}
 
+	}
+
+	@media (max-width: 700px) {
+		max-width: 90vw;
+		margin: 1rem;
+
+		.imageBox {
+			width: 90vw;
+		}
+
+		h1 {
+			font-size: 2rem;
+		}
 	}
 `;
 
