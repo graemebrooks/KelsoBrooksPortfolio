@@ -49,7 +49,7 @@ const Div = styled.div`
 		}
 
 		.blogLink:hover {
-			background: #ffb3fa;
+			background: #ffe3fd;
 		}
 	}
 

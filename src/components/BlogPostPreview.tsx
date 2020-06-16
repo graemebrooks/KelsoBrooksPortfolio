@@ -14,7 +14,7 @@ const Div = styled.div`
 
 	.previewBody {
 		padding: 1rem;
-		background: #ffb3fa;
+		background: #ffe3fd;
 
 		text-align: left;
 
@@ -39,7 +39,7 @@ type BlogPostPreviewProps = { title: string; description: string; imageURL: stri
 function BlogPostPreview({ title, description, imageURL, date }: BlogPostPreviewProps) {
 	return (
 		<Div>
-			<img src={imageURL} />
+			<img src={imageURL} alt={title} />
 			<div className="previewBody">
 				<h3>{title}</h3>
 				<p>{readableDate(date)}</p>

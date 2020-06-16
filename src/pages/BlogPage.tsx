@@ -52,7 +52,7 @@ function BlogPage() {
 
 	return (
 		<Div>
-			<PageHeader title="Blog" color="#ffb3fa" emoji="📓" />
+			<PageHeader title="Blog" color="#ffe3fd" emoji="📓" />
 
 			<div className="postsContainer">{renderPosts()}</div>
 		</Div>
