@@ -2,16 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+import Switch from '../components/Switch';
+
 // Styles
 const Div = styled.div`
 	font-family: 'Roboto Mono', monospace;
 	display: flex;
-	flex-direction: column;
-	width: 60vw;
+	width: 70vw;
 
 	padding: 1rem;
-	justify-content: left;
-	align-items: left;
 
 	ul {
 		list-style: none;
@@ -58,9 +57,21 @@ const Div = styled.div`
 		margin-top: 0.75rem;
 	}
 
+	.navContainer {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
 	@media (max-width: 700px) {
 		width: 100vw;
 		padding: 0;
+
+		.navContainer {
+			display: flex;
+			flex-direction: column;
+		}
 
 		ul {
 			width: 100%;
@@ -72,34 +83,38 @@ const Div = styled.div`
 				margin: 0;
 				width: 100%;
 			}
-
-			a {
-				color: black;
-			}
 		}
 	}
 `;
 
-function Nav() {
+interface navProps {
+	toggleTheme: () => void;
+}
+
+function Nav(props: navProps) {
 	return (
 		<Div>
-			<ul>
-				<li className="aboutLink">
-					<Link to="/">About</Link>
-				</li>
-				<li className="skillsLink">
-					<Link to="/skills">Skills</Link>
-				</li>
-				<li className="backgroundLink">
-					<Link to="/background">Background</Link>
-				</li>
-				<li className="projectsLink">
-					<Link to="/projects">Projects</Link>
-				</li>
-				<li className="blogLink">
-					<Link to="/blog">Blog</Link>
-				</li>
-			</ul>
+			<div className="navContainer">
+				<ul>
+					<li className="aboutLink">
+						<Link to="/">About</Link>
+					</li>
+					<li className="skillsLink">
+						<Link to="/skills">Skills</Link>
+					</li>
+					<li className="backgroundLink">
+						<Link to="/background">Background</Link>
+					</li>
+					<li className="projectsLink">
+						<Link to="/projects">Projects</Link>
+					</li>
+					<li className="blogLink">
+						<Link to="/blog">Blog</Link>
+					</li>
+				</ul>
+
+				<Switch toggleTheme={props.toggleTheme} />
+			</div>
 		</Div>
 	);
 }

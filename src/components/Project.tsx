@@ -52,7 +52,6 @@ const Div = styled.div`
 		margin-bottom: 0.8rem;
 
 		text-align: left;
-		line-height: 1.5;
 	}
 
 	img {
@@ -67,11 +66,12 @@ const Div = styled.div`
 		}
 
 		.firstColumn {
+			width: 100%; 
 			margin-bottom: 1rem;
 		}
 
 		img {
-			max-height: 10rem;
+			width: 100%;
 			margin-right: 1rem;
 		}
 	}

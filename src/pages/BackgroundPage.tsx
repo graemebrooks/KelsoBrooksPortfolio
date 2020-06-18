@@ -9,7 +9,7 @@ const Div = styled.div`
 	font-family: 'Roboto Mono', monospace;
 	margin-top: 2rem;
 
-	width: 60vw;
+	width: 70vw;
 
 	h2 {
 		margin-top: 1.5rem;
@@ -98,7 +98,7 @@ function BackgroundPage() {
 			<div className="backgroundUnit">
 				<img src="https://i.imgur.com/w1D6RIl.png" alt="texas tech logo" />
 				<div>
-					<h3>B.S. Microbiology, minor in Chemistry - Texas Tech University</h3>
+					<h3 className="lightBox">B.S. Microbiology, minor in Chemistry - Texas Tech University</h3>
 					<p>
 						I studied microorganisms because I had hoped to someday work as an epidemiologist and reduce the
 						spread of diseases throughout the world. Towards the end of my degree I assisted in a research
@@ -119,7 +119,7 @@ function BackgroundPage() {
 						alt="general assembly logo"
 					/>
 					<div>
-						<h3>Software Engineering Fellow</h3>
+						<h3 className="lightBox">Software Engineering Fellow</h3>
 						<p>
 							Three-month, full-time, and full-stack software engineering Bootcamp. Multi-campus connected
 							setting providing experience with the latest front- and back-end programming languages,
@@ -134,7 +134,7 @@ function BackgroundPage() {
 						alt="open conjecture logo"
 					/>
 					<div>
-						<h3>Software Business Development - Open Conjecture</h3>
+						<h3 className="lightBox">Software Business Development - Open Conjecture</h3>
 						<p>
 							- Drove SAAS sales pipeline via outreach to executives at Digital Marketing Agencies across
 							North America.
@@ -146,7 +146,7 @@ function BackgroundPage() {
 				<div className="backgroundUnit">
 					<img src="https://www.finsmes.com/wp-content/uploads/2017/10/verve.jpg" alt="verve logo" />
 					<div>
-						<h3>Software Sales Representative - Pollen (formerly Verve)</h3>
+						<h3 className="lightBox">Software Sales Representative - Pollen (formerly Verve)</h3>
 						<p>
 							- Drove SAAS sales pipeline through outreach to marketing directors for large scale live
 							events and music festivals in North America.

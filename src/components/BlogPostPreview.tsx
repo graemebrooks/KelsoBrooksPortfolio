@@ -40,7 +40,7 @@ function BlogPostPreview({ title, description, imageURL, date }: BlogPostPreview
 	return (
 		<Div>
 			<img src={imageURL} alt={title} />
-			<div className="previewBody">
+			<div className="previewBody lightBox">
 				<h3>{title}</h3>
 				<p>{readableDate(date)}</p>
 				<p>{description}</p>

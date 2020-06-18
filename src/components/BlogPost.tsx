@@ -11,12 +11,12 @@ const Div =
 	{ imageSrc: string } >
 	`
 	font-family: 'Roboto Mono', monospace;
-	max-width: 60vw;
+	max-width: 70vw;
 
 	
 
 	.imageBox {
-		width: 60vw;
+		width: 70vw;
 		height: 30rem;
 		background: url(${(props) => props.imageSrc});
 		background-size: cover;
@@ -64,6 +64,7 @@ const Div =
 			background: #ffe3fd;
 			padding: 2rem;
 			overflow-y: auto;
+			color: black;
 		}
 
 		blockquote {
@@ -71,6 +72,7 @@ const Div =
 			font-weight: bold;
 			background: #ffe3fd;
 			padding: 1rem;
+			color: black;
 		}
 
 	}

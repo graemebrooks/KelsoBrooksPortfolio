@@ -13,12 +13,13 @@ const Div = styled.div`
 	font-family: 'Roboto Mono', monospace;
 	margin-top: 2rem;
 
-	width: 60vw;
+	width: 70vw;
 
 	.postsContainer {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 
 	@media (max-width: 700px) {

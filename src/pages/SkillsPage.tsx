@@ -10,7 +10,7 @@ const Div = styled.div`
 	font-family: 'Roboto Mono', monospace;
 	margin-top: 2rem;
 
-	width: 60vw;
+	width: 70vw;
 
 	.skillsContainer {
 		display: flex;

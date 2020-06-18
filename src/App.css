@@ -33,6 +33,14 @@
 	color: #61dafb;
 }
 
+p {
+	line-height: 2;
+}
+
+.lightBox {
+	color: black;
+}
+
 @media (max-width: 700px) {
 	.App {
 		width: 100vw;

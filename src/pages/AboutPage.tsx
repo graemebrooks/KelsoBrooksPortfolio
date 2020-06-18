@@ -10,10 +10,7 @@ const Div = styled.div`
 	margin-top: 2rem;
 	padding: 1rem;
 
-	background: white;
-	border-radius: 8px;
-
-	width: 60vw;
+	width: 70vw;
 
 	h2 {
 		margin-top: 1rem;
@@ -29,7 +26,7 @@ const Div = styled.div`
 	.intro {
 		display: flex;
 		flex-direction: row;
-		margin-top: 1rem;
+		margin: 1.5rem auto;
 
 		img {
 			max-height: 30vh;

@@ -8,12 +8,13 @@ const Div = styled.div`
 		display: flex;
 		justify-content: left;
 
-		border-bottom: 2px solid black;
+		border-bottom: 2px solid ${({ theme }) => theme.text};
 
 		h2 {
 			padding: 0.5rem;
 			background: ${(props) => props.color};
 			margin-bottom: 1rem;
+			color: black;
 		}
 	}
 `;
