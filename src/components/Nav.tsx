@@ -65,7 +65,7 @@ const Div = styled.div`
 	}
 
 	@media (max-width: 700px) {
-		width: 100vw;
+		width: 100%;
 		padding: 0;
 
 		.navContainer {
@@ -74,14 +74,14 @@ const Div = styled.div`
 		}
 
 		ul {
-			width: 100%;
+			max-width: 100%;
 			flex-direction: column;
 			font-size: 1.5rem;
 			margin: 0;
 
 			li {
 				margin: 0;
-				width: 100%;
+				max-width: 100%;
 			}
 		}
 	}
