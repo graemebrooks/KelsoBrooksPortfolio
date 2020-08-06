@@ -33,6 +33,7 @@ const Div = styled.div`
 			margin-right: 1rem;
 			max-width: 20vw;
 			float: left;
+			flex-shrink: 0;
 		}
 	}
 
@@ -68,6 +69,7 @@ const Div = styled.div`
 			float: right;
 			margin-left: 1rem;
 			max-width: 20vw;
+			flex-shrink: 0;
 		}
 	}
 
@@ -87,6 +89,7 @@ const Div = styled.div`
 			float: right;
 			margin-right: 1rem;
 			max-width: 20vw;
+			flex-shrink: 0;
 		}
 
 		p {
