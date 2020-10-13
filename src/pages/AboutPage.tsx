@@ -332,7 +332,7 @@ function AboutPage() {
 				<p>
 					I have been interested in coding since high school, but only after I had graduated college with a
 					degree in microbiology did I actually give it a try. As a hobbyist, I really enjoyed fiddling with
-					python and building my first static websites with HTML/JS/CSS. I never considered attempting a
+					Python and building my first static websites with HTML/JS/CSS. I never considered attempting a
 					wholesale career change into software engineering. I am fortunate, however, to have a bunch of
 					friends and family who are either developers themselves or work in IT in some fashion. Without them
 					I never would have had the courage to take the plunge into a software engineering bootcamp. I cannot

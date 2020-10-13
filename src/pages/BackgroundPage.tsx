@@ -89,23 +89,7 @@ function BackgroundPage() {
 	return (
 		<Div>
 			<PageHeader title="Background" color="#fffeb8" emoji="🎓" />
-			<h2 className="sectionHeader">
-				Education {' '}
-				<span role="img" aria-label="dna">
-					🔬
-				</span>
-			</h2>
-			<div className="backgroundUnit">
-				<img src="https://i.imgur.com/w1D6RIl.png" alt="texas tech logo" />
-				<div>
-					<h3 className="lightBox">B.S. Microbiology, minor in Chemistry - Texas Tech University</h3>
-					<p>
-						I studied microorganisms because I had hoped to someday work as an epidemiologist and reduce the
-						spread of diseases throughout the world. Towards the end of my degree I assisted in a research
-						lab studying the role T cells play in autoimmune disease.
-					</p>
-				</div>
-			</div>
+
 			<h2>
 				Experience {' '}
 				<span role="img" aria-label="office">
@@ -130,7 +114,7 @@ function BackgroundPage() {
 				</div>
 				<div className="backgroundUnit">
 					<img
-						src="https://media-exp1.licdn.com/dms/image/C4E0BAQFMd-Q4JQSMPg/company-logo_200_200/0?e=1599696000&v=beta&t=PPbeJhqRE59ljZWZZdvbqAbnceCTPibru8wNBrOdAAs"
+						src="https://www.pinclipart.com/picdir/big/350-3504140_office-icon-office-icon-png-clipart.png"
 						alt="open conjecture logo"
 					/>
 					<div>
@@ -156,6 +140,23 @@ function BackgroundPage() {
 							startup environment.
 						</p>
 					</div>
+				</div>
+			</div>
+			<h2 className="sectionHeader">
+				Education {' '}
+				<span role="img" aria-label="dna">
+					🔬
+				</span>
+			</h2>
+			<div className="backgroundUnit">
+				<img src="https://i.imgur.com/w1D6RIl.png" alt="texas tech logo" />
+				<div>
+					<h3 className="lightBox">B.S. Microbiology, minor in Chemistry - Texas Tech University</h3>
+					<p>
+						I studied microorganisms because I had hoped to someday work as an epidemiologist and reduce the
+						spread of diseases throughout the world. Towards the end of my degree I assisted in a research
+						lab studying the role T cells play in autoimmune disease.
+					</p>
 				</div>
 			</div>
 		</Div>
